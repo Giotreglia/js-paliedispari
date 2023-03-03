@@ -22,14 +22,14 @@ function parolaPalindroma(parola) {
     let parolaReverse = [];
     let risultato;
 
-    for (let i = 0; i < parolaUtente.length; i++) {
-        parolaDritta.push(parolaUtente[i]);
+    for (let i = 0; i < parola.length; i++) {
+        parolaDritta.push(parola[i]);
     }
 
     console.log(parolaDritta);
 
-    for (let i = parolaUtente.length - 1; i >= 0; i--) {
-        parolaReverse.push(parolaUtente[i]); 
+    for (let i = parola.length - 1; i >= 0; i--) {
+        parolaReverse.push(parola[i]); 
     }
 
     console.log(parolaReverse);
